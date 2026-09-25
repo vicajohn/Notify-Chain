@@ -21,3 +21,13 @@ export { ProviderManager, createProviderManager } from './manager';
 
 // Implementations
 export { ConsoleProvider } from './consoleProvider';
+export {
+  WebhookProvider,
+  createWebhookProvider,
+  type WebhookProviderConfig,
+} from './webhookProvider';
+export {
+  EmailProvider,
+  createEmailProvider,
+  type EmailProviderConfig,
+} from './emailProvider';
